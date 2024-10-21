@@ -1,0 +1,12 @@
+.resume-link {
+    color: #007BFF; /* Change link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.resume-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}

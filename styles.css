@@ -7,7 +7,7 @@
 
 /* Hover effect */
 .resume-link:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #ff2c2c; /* Darker blue on hover */
     text-decoration: underline; /* Underline on hover */
 }
 body {

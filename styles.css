@@ -4,8 +4,12 @@
     font-weight: bold; /* Make text bold */
     transition: color 0.3s ease; /* Smooth transition */
     text-align: center; 
+    
 }
-
+#con
+{
+    text-align:Center;
+}
 /* Hover effect */
 .resume-link:hover {
     color: #ff2c2c; /* Darker blue on hover */
@@ -13,4 +17,14 @@
 }
 body {
   background-color: lightblue;
+}
+.background-container {
+    background-image: url('https://i.extremetech.com/imagery/content-types/02bFcfZE7tF1Mi5pIvbl80K/hero-image.fit_lim.size_1600x900.v1678673213.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire container */
+    
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Center content */
+   
+    text-align: center; /* Horizontally center content */
+    color: white; /* Text color */
 }

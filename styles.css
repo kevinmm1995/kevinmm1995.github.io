@@ -3,6 +3,7 @@
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make text bold */
     transition: color 0.3s ease; /* Smooth transition */
+    text-align: center; 
 }
 
 /* Hover effect */

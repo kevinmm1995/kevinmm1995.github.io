@@ -1,30 +1,42 @@
-.resume-link {
-    color: #007BFF; /* Change link color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make text bold */
-    transition: color 0.3s ease; /* Smooth transition */
-    text-align: center; 
-    
-}
-#con
-{
-    text-align:Center;
-}
-/* Hover effect */
-.resume-link:hover {
-    color: #ff2c2c; /* Darker blue on hover */
-    text-decoration: underline; /* Underline on hover */
-}
 body {
-  background-color: lightblue;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height */
+    background-color: lightgrey; /* Optional */
 }
+
 .background-container {
     background-image: url('https://i.extremetech.com/imagery/content-types/02bFcfZE7tF1Mi5pIvbl80K/hero-image.fit_lim.size_1600x900.v1678673213.jpg'); /* Replace with your image URL */
     background-size: cover; /* Cover the entire container */
-    
     height: 100vh; /* Full viewport height */
-    display: flex; /* Center content */
-   
-    text-align: center; /* Horizontally center content */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     color: white; /* Text color */
+    text-align: center; /* Center text */
+}
+
+#currentTime {
+            position: absolute; /* Position fixed at bottom */
+            bottom: 20px; /* Distance from the bottom */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust to center */
+            text-align: center; /* Center the text */
+            color: white; /* Change text color */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 10px; /* Padding for better appearance */
+            border-radius: 5px; /* Rounded corners */
+        }
+
+.resume-link {
+    color: #FFFF00; /* Change link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.resume-link:hover {
+    color: #ff2c2c; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
 }
